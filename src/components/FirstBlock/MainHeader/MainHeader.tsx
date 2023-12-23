@@ -2,6 +2,7 @@ import styled from "styled-components";
 import LogoQUBE from '../../../assets/svg/QubeLogo.svg'
 import { ButtonLink } from "../FirstBlockButton/ButtonLink";
 import { useAccordionStore } from "../../../hooks/useAccordionStore";
+import React from "react";
 
 const Header = styled.div`
     width: 100%;
@@ -34,7 +35,7 @@ const HeaderLogoText = styled.h2`
     font-size: 50px;
 `
 
-const BlockLinkF = styled.div`
+const BlockLink = styled.nav`
     display: flex;
     font-size: 20px;
     @media (max-width: 720px){
@@ -42,13 +43,6 @@ const BlockLinkF = styled.div`
     }
 `
 
-const BlockLinkS = styled.div`
-    display: flex;
-    font-size: 20px;
-    @media (max-width: 720px){
-        width: 100%;
-    }
-`
 
 const LinkText = styled.button`
     font-weight: 600;
@@ -72,18 +66,18 @@ export const MainHeader = () => {
 
     return(
         <Header>
-            <BlockLinkF>
+            <BlockLink>
                 <LinkText>Learn</LinkText>
                 <LinkText>Network</LinkText>
-            </BlockLinkF>
+            </BlockLink>
             <HeaderLogoBlock>
                 <HeaderLogoQUBE src={LogoQUBE}></HeaderLogoQUBE>
                 <HeaderLogoText>Qube</HeaderLogoText>
             </HeaderLogoBlock>
-            <BlockLinkS>
+            <BlockLink>
                 <LinkText>Ecosystem</LinkText>
                 <LinkText>Community</LinkText>
-            </BlockLinkS>
+            </BlockLink>
         </Header>
     )
 }

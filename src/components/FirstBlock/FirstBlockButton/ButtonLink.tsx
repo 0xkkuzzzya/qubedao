@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import LinkImg from '../../../assets/svg/ArrowLink.svg'
 import { useAccordionStore } from "../../../hooks/useAccordionStore";
+import React from "react";
 
 const LinkButton = styled.button`
     display: none;
