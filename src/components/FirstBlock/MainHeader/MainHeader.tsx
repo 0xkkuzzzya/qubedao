@@ -10,9 +10,6 @@ const Header = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    @media (max-width: 720px){
-        justify-content: normal;
-    }
 `
 
 const HeaderLogoBlock = styled.div`
@@ -28,19 +25,26 @@ const HeaderLogoQUBE = styled.img`
         width: 40px;
         height: 40px;
     }
+    @media (max-width: 450px){
+        width: 35px;
+        height: 35px;
+    }
 `
 
 const HeaderLogoText = styled.h2`
     margin-left: 10px;
     font-size: 50px;
+    @media (max-width: 720px){
+        font-size: 40px;
+    }
+    @media (max-width: 450px){
+        font-size: 35px;
+    }
 `
 
 const BlockLink = styled.nav`
     display: flex;
     font-size: 20px;
-    @media (max-width: 720px){
-        width: 100%;
-    }
 `
 
 

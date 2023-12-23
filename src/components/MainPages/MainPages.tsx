@@ -7,6 +7,9 @@ const Pages = styled.div`
         display: inline-block;
         justify-content: center;
 }
+    @media (max-width: 450px) {
+        display: inline-block;
+}
 `
 
 export const MainPages = () => {
