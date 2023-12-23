@@ -3,7 +3,6 @@ import styled from "styled-components";
 
 const MainText = styled.h1`
     color: #46ACFF;
-    font-size: 80px;
     margin-top: -40px;
 `
 

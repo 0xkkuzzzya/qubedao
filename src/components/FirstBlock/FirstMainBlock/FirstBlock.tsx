@@ -18,13 +18,25 @@ const MainText = styled.div`
     text-align: center;
     align-items: center;
     margin-top: 100px;
-    /* @media (max-width: 720px) {
-        max-width: 70%;
-    } */
 `
 
 const UnderMainText = styled.div`
     max-width: 100%;
+    font-size: 18px;
+    @media (max-width: 600px){
+        font-size: 15px;
+    }
+`
+
+const UpMainText = styled.div`
+    max-width: 100%;
+    font-size: 40px;
+    @media (max-width: 800px){
+        font-size: 35px;
+    }
+    @media (max-width: 480px){
+        font-size: 25px;
+    }
 `
 
 export const FirstMainBlock = () => {
@@ -32,8 +44,10 @@ export const FirstMainBlock = () => {
         <FitstBlock>
             <MainHeader></MainHeader>
             <MainText>
-                <FirstBlockMainText></FirstBlockMainText>
-                <FirstBlockUnderText></FirstBlockUnderText>
+                <UpMainText>
+                    <FirstBlockMainText></FirstBlockMainText>
+                    <FirstBlockUnderText></FirstBlockUnderText>
+                </UpMainText>
                 <UnderMainText>
                     <FirstBlockMiniText></FirstBlockMiniText>
                 </UnderMainText>

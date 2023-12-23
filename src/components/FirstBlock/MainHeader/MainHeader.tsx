@@ -3,54 +3,94 @@ import LogoQUBE from '../../../assets/svg/QubeLogo.svg'
 import React from "react";
 
 const Header = styled.div`
-    width: 100%;
+    max-width: 100%;
     height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: center ;
+    display: grid;
+    @media (max-width: 600px){
+        font-size: 35px;
+        height: 60px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 `
 
 const HeaderLogoBlock = styled.div`
     height: 100%;
     display: flex;
     align-items: center;
+    @media (max-width: 720px){
+        display: none;
+    }
 `
 
 const HeaderLogoQUBE = styled.img`
+    display: block;
     width: 60px;
     height: 60px;
     @media (max-width: 720px){
         width: 40px;
         height: 40px;
     }
-    @media (max-width: 450px){
-        width: 35px;
-        height: 35px;
-    }
 `
 
 const HeaderLogoText = styled.h2`
     margin-left: 10px;
     font-size: 50px;
-    @media (max-width: 720px){
-        font-size: 40px;
-    }
-    @media (max-width: 450px){
-        font-size: 35px;
-    }
 `
 
 const BlockLink = styled.nav`
+    width: 100%;
     display: flex;
-    font-size: 20px;
+    align-items: center;
+    gap: 10px;
+    height: 60px;
+    margin-top: 10px;
+    @media (min-width: 720px){
+        width: 100%;
+        justify-content: center;
+    }
 `
 
 
 const LinkText = styled.button`
+    width: 100%;
+    background: transparent;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
     font-weight: 600;
-    margin-left: 20px;
-    margin-right: 20px;
-    
+    padding: 0;
+    @media (min-width: 730px){
+        font-size: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    @media (max-width: 600px){
+        margin-left: 0;
+        margin-right: 0;
+    }
+`
+
+const LinkFlex = styled.div`
+    display: flex;
+    align-items: center;
+`
+
+const LinkBlock = styled.div`
+    flex-grow: 1;
+    @media (min-width: 730px){
+        flex-grow: 0;
+        display: flex;
+    }
+`
+
+const Test = styled.div`
+    width: 100px;
+    flex-grow: 1;
+    @media (min-width: 730px){
+        flex-grow: 0;
+        display: flex;
+    }
 `
 
 // const LinkBlockHidden = styled.div `
@@ -60,7 +100,13 @@ const LinkText = styled.button`
 //     flex-direction: row;
 //     justify-content: center;
 //     background-color: #dfdfdf;
+//
+//     Network
+//     Ecosystem
+//     Community
 // `
+
+
 
 
 
@@ -68,18 +114,25 @@ export const MainHeader = () => {
 
     return(
         <Header>
-            <BlockLink>
-                <LinkText>Learn</LinkText>
-                <LinkText>Network</LinkText>
-            </BlockLink>
-            <HeaderLogoBlock>
-                <HeaderLogoQUBE src={LogoQUBE}></HeaderLogoQUBE>
-                <HeaderLogoText>Qube</HeaderLogoText>
-            </HeaderLogoBlock>
-            <BlockLink>
-                <LinkText>Ecosystem</LinkText>
-                <LinkText>Community</LinkText>
-            </BlockLink>
+                <BlockLink>
+                    <LinkBlock>
+                        <LinkText>Learn</LinkText>
+                    </LinkBlock>
+                    <LinkBlock>
+                        <LinkText>Network</LinkText>
+                    </LinkBlock>
+                        <HeaderLogoBlock>
+                            <HeaderLogoQUBE src={LogoQUBE}></HeaderLogoQUBE>
+                            <HeaderLogoText>Qube</HeaderLogoText>
+                        </HeaderLogoBlock>
+                    <LinkBlock>
+                        <LinkText>Ecosystem</LinkText>
+                    </LinkBlock>
+                    <LinkBlock>
+                        <LinkText>Community</LinkText>
+                    </LinkBlock>
+                </BlockLink>
+
         </Header>
     )
 }
