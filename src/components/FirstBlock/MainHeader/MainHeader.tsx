@@ -9,7 +9,7 @@ const Header = styled.div`
     height: 80px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center ;
 `
 
 const HeaderLogoBlock = styled.div`
