@@ -65,7 +65,7 @@ const LinkText = styled.button`
         margin-left: 20px;
         margin-right: 20px;
     }
-    @media (max-width: 600px){
+    @media (max-width: 720px){
         margin-left: 0;
         margin-right: 0;
     }
