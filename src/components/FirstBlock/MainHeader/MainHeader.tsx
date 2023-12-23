@@ -1,7 +1,5 @@
 import styled from "styled-components";
 import LogoQUBE from '../../../assets/svg/QubeLogo.svg'
-import { ButtonLink } from "../FirstBlockButton/ButtonLink";
-import { useAccordionStore } from "../../../hooks/useAccordionStore";
 import React from "react";
 
 const Header = styled.div`
