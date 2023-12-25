@@ -12,6 +12,14 @@ const ThirdText = styled.div`
 
 const UpText = styled.h2`
     font-size: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+    @media (max-width: 720px) {
+        font-size: 50px;
+    }
+    @media (max-width: 450px) {
+        font-size: 40px;
+    }
 `
 
 export const ThirdUpText = () => {

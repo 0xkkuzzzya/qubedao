@@ -22,6 +22,8 @@ const NameText = styled.h1`
     font-size: 55px;
     color: white;
     margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     @media (max-width: 720px) {
         font-size: 40px;
         margin-top: 10px;

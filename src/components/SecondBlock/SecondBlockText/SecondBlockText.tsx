@@ -14,7 +14,7 @@ const SecondText = styled.h1`
     font-weight: 700;
     padding: 20px 15px;
     @media (max-width: 720px) {
-        font-size: 55px;
+        font-size: 45px;
     }
 `
 
