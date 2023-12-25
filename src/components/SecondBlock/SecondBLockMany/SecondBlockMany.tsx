@@ -37,7 +37,7 @@ const SecondBlock = styled.div`
 
 
 const ManyBlock = styled.div`
-    width: 230px;
+    width: 260px;
     height: 380px;
     background-color: #E7F2FF;
     margin-bottom: 40px;

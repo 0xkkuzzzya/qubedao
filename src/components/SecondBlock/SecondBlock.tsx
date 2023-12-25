@@ -8,6 +8,7 @@ const Second = styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: #FBFBFA;
 `
 
 export const SecondBlock = () => {

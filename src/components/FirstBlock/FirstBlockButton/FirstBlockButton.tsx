@@ -8,6 +8,7 @@ const ButttonBlock = styled.div`
     justify-content: center;
     margin-top: 30px;
     padding: 0px 20px;
+    margin-bottom: 150px;
 `
 
 export const FirstBlockButton = () => {

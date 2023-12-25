@@ -7,6 +7,7 @@ const ThirdText = styled.div`
     text-align: center;
     justify-content: center;
     flex-direction: column;
+    
 `
 
 const UpText = styled.h2`

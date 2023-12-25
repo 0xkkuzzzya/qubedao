@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const UpTextBlock = styled.div`
     max-width: 100%;
-    margin-top: 160px;
+    margin-top: 60px;
     padding: 0px 30px;
     display: flex;
     flex-direction: row;
@@ -10,7 +10,7 @@ const UpTextBlock = styled.div`
 `
 
 const SecondText = styled.h1`
-    font-size: 75px;
+    font-size: 60px;
     font-weight: 700;
     padding: 20px 15px;
     @media (max-width: 720px) {
@@ -18,12 +18,6 @@ const SecondText = styled.h1`
     }
 `
 
-const ColorBlue = styled.h1`
-    font-size: 75px;
-    font-weight: 700;
-    color: #46ACFF;
-    margin: 0px;
-`
 
 export const SecondBlockText = () => {
     return(
