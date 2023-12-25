@@ -5,6 +5,9 @@ const MainText = styled.h2`
     color: #333;
     margin-top: -30px;
     padding: 0px 15px;
+    @media (max-width: 480px) {
+        margin-top: -20px;
+    }
 `
 
 const MainTextP = styled.p`

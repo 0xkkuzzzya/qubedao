@@ -5,7 +5,7 @@ const MainText = styled.h1`
     color: #46ACFF;
     margin-top: -60px;
     @media (max-width: 480px) {
-        margin-top: -40px;
+        margin-top: -30px;
     }
 `
 
