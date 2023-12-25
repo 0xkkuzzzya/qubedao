@@ -12,14 +12,30 @@ const Header = styled.div`
         margin-left: 10px;
         margin-right: 10px;
     }
+    @media (min-width: 720px) {
+        margin-left: 50px;
+    }
+    @media (max-width: 940px) {
+        margin-left: 10px;
+    }
 `
 
 const HeaderLogoBlock = styled.div`
-    height: 100%;
     display: flex;
     align-items: center;
+    @media (max-width: 940px){
+        display: flex;
+        position: absolute;
+        margin-top: -90px;
+        margin-left: -465px;
+    }
     @media (max-width: 720px){
-        display: none;
+        display: flex;
+        position: absolute;
+        margin-top: -70px;
+        margin-left: 0px;
+        left: 0;
+        text-align: center;
     }
 `
 
@@ -27,15 +43,20 @@ const HeaderLogoQUBE = styled.img`
     display: block;
     width: 60px;
     height: 60px;
-    @media (max-width: 720px){
-        width: 40px;
-        height: 40px;
+    margin-left: 30px;
+    @media (max-width: 940px){
+        width: 30px;
+        height: 30px;
     }
 `
 
 const HeaderLogoText = styled.h2`
     margin-left: 10px;
     font-size: 50px;
+    margin-right: 30px;
+    @media (max-width: 940px){
+        font-size: 20px;
+    }
 `
 
 const BlockLink = styled.nav`
@@ -48,6 +69,12 @@ const BlockLink = styled.nav`
     @media (min-width: 720px){
         width: 100%;
         justify-content: center;
+    }
+    @media (max-width: 940px){
+        margin-top: 50px;
+    }
+    @media (max-width: 720px){
+        margin-top: 30px;
     }
 `
 
@@ -62,8 +89,8 @@ const LinkText = styled.button`
     padding: 0;
     @media (min-width: 730px){
         font-size: 20px;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 30px;
+        margin-right: 30px;
     }
     @media (max-width: 720px){
         margin-left: 0;

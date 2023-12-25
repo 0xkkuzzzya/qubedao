@@ -4,6 +4,7 @@ import styled from "styled-components";
 const MainText = styled.h2`
     color: #333;
     margin-top: -30px;
+    padding: 0px 15px;
 `
 
 const MainTextP = styled.p`
@@ -17,7 +18,6 @@ export const FirstBlockMiniText = () => {
     return(
         <MainText>
             Qube is blockchain ecosystem of algorithmic stablecoins powering
-            <MainTextP></MainTextP>
             decentralized finance for everyone.
         </MainText>
     )

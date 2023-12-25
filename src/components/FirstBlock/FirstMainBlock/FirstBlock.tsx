@@ -4,6 +4,7 @@ import { MainHeader } from "../MainHeader/MainHeader";
 import { FirstBlockMainText } from "../FIrstBlockText/FirstBlockMainText/FirstBlockMainText";
 import { FirstBlockUnderText } from "../FIrstBlockText/FirstBlockUnderText/FirstBlockUnderText";
 import { FirstBlockMiniText } from "../FIrstBlockText/FirstBlockMiniText/FirstBlockMiniText";
+import { FirstBlockButton } from "../FirstBlockButton/FirstBlockButton";
 
 const FitstBlock = styled.div`
     display: flex;
@@ -23,19 +24,24 @@ const MainText = styled.div`
 const UnderMainText = styled.div`
     max-width: 100%;
     font-size: 18px;
+    max-width: 50%;
     @media (max-width: 600px){
         font-size: 15px;
     }
+    @media (max-width: 720px){
+        max-width: 80%;
+    }    
 `
 
 const UpMainText = styled.div`
     max-width: 100%;
-    font-size: 40px;
+    font-size: 45px;
+    padding: 0px 15px;
     @media (max-width: 800px){
         font-size: 35px;
     }
     @media (max-width: 480px){
-        font-size: 25px;
+        font-size: 23px;
     }
 `
 
@@ -52,6 +58,7 @@ export const FirstMainBlock = () => {
                     <FirstBlockMiniText></FirstBlockMiniText>
                 </UnderMainText>
             </MainText>
+            <FirstBlockButton></FirstBlockButton>
         </FitstBlock>
     )
 }
