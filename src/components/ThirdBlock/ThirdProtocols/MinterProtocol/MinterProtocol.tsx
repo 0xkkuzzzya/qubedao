@@ -38,7 +38,6 @@ const DescriptionText = styled.h3`
     font-size: 20px;
     font-size: 30px;
     margin-left: 70px;
-    padding-left: 20px;
     @media (max-width: 600px) {
         margin-left: 20px;
         font-size: 20px

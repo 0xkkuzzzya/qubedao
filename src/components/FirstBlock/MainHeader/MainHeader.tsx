@@ -6,7 +6,6 @@ const Header = styled.div`
     max-width: 100%;
     height: 80px;
     display: grid;
-    background-color: #FBFBFA;
     @media (max-width: 600px){
         font-size: 35px;
         height: 60px;
@@ -88,6 +87,8 @@ const LinkText = styled.button`
     cursor: pointer;
     font-weight: 600;
     padding: 0;
+    color: black;
+    text-decoration: none;
     @media (min-width: 730px){
         font-size: 20px;
         margin-left: 30px;

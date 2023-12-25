@@ -12,6 +12,7 @@ const Build = styled.button`
     color: #00ACFD;
     font-size: 19px;
     outline: none;
+    cursor: pointer;
 `
 
 export const BuildButton = () => {

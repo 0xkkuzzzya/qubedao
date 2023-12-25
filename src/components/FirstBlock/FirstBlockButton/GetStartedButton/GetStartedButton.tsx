@@ -12,6 +12,7 @@ const GetStarted = styled.button`
     color: white;
     font-size: 19px;
     outline: none;
+    cursor: pointer;
 `
 
 export const GetStartedButton = () => {

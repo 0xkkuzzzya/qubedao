@@ -17,10 +17,10 @@ const ReadMore = styled.button `
     font-family: 'Metropolis', sans-serif;
     color: #00ACFD;
     margin-bottom: 10px;
+    cursor: pointer;
     @media (max-width: 600px) {
         margin-left: 20px;
         font-size: 15px;
-        width: 100px;
     }
 `
 
@@ -35,9 +35,10 @@ const GoTo = styled.button`
     font-size: 20px;
     font-weight: 600;
     font-family: 'Metropolis', sans-serif;
+    cursor: pointer;
     @media (max-width: 600px) {
         font-size: 15px;
-        width: 100px;
+        margin-right: 20px;
     }
 `
 
