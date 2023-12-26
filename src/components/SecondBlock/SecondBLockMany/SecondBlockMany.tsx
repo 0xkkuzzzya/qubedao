@@ -56,7 +56,7 @@ const NameText = styled.h2`
 `
 
 const LogoImg = styled.img`
-    margin-top: 30px;
+    margin-top: 50px;
     width: 80px;
     height: 80px;
 `

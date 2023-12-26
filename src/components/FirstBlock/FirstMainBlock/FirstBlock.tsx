@@ -18,7 +18,7 @@ const MainText = styled.div`
     flex-direction: column;
     text-align: center;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 180px;
 `
 
 const UnderMainText = styled.div`

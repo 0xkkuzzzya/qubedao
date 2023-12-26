@@ -10,9 +10,20 @@ const UpTextBlock = styled.div`
 `
 
 const SecondText = styled.h1`
-    font-size: 60px;
+    font-size: 55px;
     font-weight: 700;
     padding: 20px 15px;
+    @media (max-width: 720px) {
+        font-size: 45px;
+    }
+`
+
+const BlueText = styled.a`
+    color: #46ACFF;
+    font-size: 53px;
+    @media (max-width: 720px) {
+        font-size: 50px;
+    }
     @media (max-width: 720px) {
         font-size: 45px;
     }
@@ -23,7 +34,7 @@ export const SecondBlockText = () => {
     return(
         <UpTextBlock>
             <SecondText>
-            Save, Spend and Stake Like Never Before
+            <BlueText>Save</BlueText>, <BlueText>Spend</BlueText> and <BlueText>Stake</BlueText> Like Never Before
             </SecondText>
         </UpTextBlock>
     )

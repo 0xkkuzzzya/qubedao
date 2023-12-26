@@ -22,10 +22,21 @@ const UpText = styled.h2`
     }
 `
 
+const BlueText = styled.a`
+    color: #46ACFF;
+    font-size: 57px;
+    @media (max-width: 720px) {
+        font-size: 50px;
+    }
+    @media (max-width: 720px) {
+        font-size: 45px;
+    }
+`
+
 export const ThirdUpText = () => {
     return(
         <ThirdText>
-            <UpText>Dive into the Qube ecosystem</UpText>
+            <UpText>Dive into the <BlueText>Qube</BlueText> ecosystem</UpText>
         </ThirdText>
     )
 }
