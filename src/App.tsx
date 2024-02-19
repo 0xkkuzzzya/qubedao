@@ -1,9 +1,13 @@
 import React from 'react';
+import { ContainerIndex } from './components/inedx';
 
 
 function App() {
   return (
-      <div></div>
+      <div>
+        <ContainerIndex></ContainerIndex>
+          
+      </div>
   );
 }
 
