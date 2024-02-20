@@ -38,7 +38,7 @@ export const NavButton = () => {
             setAccordion({
                 active: true,
                 margin: '50px',
-                height: '230px',
+                height: '250px',
             })
         } else if (accordion.active == true) {
             setAccordion({

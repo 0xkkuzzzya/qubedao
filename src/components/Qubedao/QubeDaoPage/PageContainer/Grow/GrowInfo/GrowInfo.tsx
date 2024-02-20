@@ -34,7 +34,6 @@ const InfoBlock = styled.div`
     margin-left: 20px;
     @media (max-width: 500px) {
         width: 80%;
-        margin-top: 10px;
     }
 `
 
@@ -44,7 +43,6 @@ const GreyBlock = styled.div`
     margin-top: 10px;
     @media (max-width: 500px) {
         width: 100%;
-        margin-top: 5px;
     }
 `
 
@@ -52,6 +50,9 @@ const MinterInfo = styled.a`
     font-size: 22px;
     font-weight: 500;
     color: white;
+    @media (max-width: 500px) {
+        font-size: 18px;
+    }
 `
 
 const GreyText = styled.a`

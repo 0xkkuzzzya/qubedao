@@ -1,6 +1,8 @@
 import styled from "styled-components";
 import { PageHeader } from "./PageHeader/PageHeader";
 import { PageContainer } from "./PageContainer/PageContainer";
+import { Footer } from "./Footer/Footer";
+import { PageInfoQUBE } from "./PageInfoQUBE/PageInfoQUBE";
 
 const PageBlock = styled.div`
     width: 100%;
@@ -23,6 +25,8 @@ export const QubeDaoPage = () => {
         <PageBlock>
             <PageHeader/>
             <PageContainer/>
+            <PageInfoQUBE/>
+            <Footer/>
         </PageBlock>
     )
 }

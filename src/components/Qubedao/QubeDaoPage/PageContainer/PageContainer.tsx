@@ -17,18 +17,19 @@ const Container = styled.div`
 const MineterGrowBlock = styled.div`
     width: 550px;
     height: 350px;
-    border-radius: 30px;
+    border-radius: 20px;
     margin-top: 30px;
     background: #1B1B1C;
     @media (max-width: 600px) {
         width: 100%;
+        height: 300px;
     }
 `
 
 const LiquidExchangeBlock = styled.div`
     width: 550px;
     height: 170px;
-    border-radius: 30px;
+    border-radius: 20px;
     margin-top: 30px;
     background: #1B1B1C;
     @media (max-width: 600px) {

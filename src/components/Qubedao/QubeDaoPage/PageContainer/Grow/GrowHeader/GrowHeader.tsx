@@ -7,6 +7,9 @@ const Container = styled.div`
     height: 53%;
     display: flex;
     align-items: center;
+    @media (max-width: 500px) {
+        height: 48%;
+    }
 `
 
 const TokenBlock = styled.div`
@@ -23,6 +26,9 @@ const TokenBlock = styled.div`
 const TokenNameBlock = styled.div`
     display: flex;
     align-items: center;
+    @media (max-width: 500px) {
+        margin-top: 20px;
+    }
 `
 
 const TokenName = styled.h1`
@@ -39,7 +45,7 @@ const TokenLogo = styled.img`
     width: 150px;
     margin-top: -40px;
     @media (max-width: 500px) {
-        width: 150px;
+        width: 130px;
     }
 `
 
@@ -54,12 +60,18 @@ const HeaderTextBlock = styled.div`
     width: 100%;
     margin-top: 30px;
     margin-left: 20px;
+    @media (max-width: 500px) {
+        margin-top: 20px;
+    }
 `
 
 const HeaderText = styled.a`
     font-size: 25px;
     font-weight: 600;
     color: white;
+    @media (max-width: 500px) {
+        font-size: 22px;
+    }
 `
 
 const HeaderMiniTextBlock = styled.div`
@@ -67,7 +79,7 @@ const HeaderMiniTextBlock = styled.div`
     margin-top: 10px;
     margin-left: 20px;
     @media (max-width: 500px) {
-        width: 70%;
+        width: 65%;
     }
 `
 
@@ -75,12 +87,18 @@ const HeaderMiniText = styled.a`
     font-size: 20px;
     font-weight: 600;
     color: white;
+    @media (max-width: 500px) {
+        font-size: 17px;
+    }
 `
 
 const BlueText = styled.a`
     font-size: 20px;
     font-weight: 600;
     color: #7DC1FE;
+    @media (max-width: 500px) {
+        font-size: 18px;
+    }
 `
 
 
@@ -103,8 +121,8 @@ export const GrowHeader = () => {
                 </HeaderTextBlock>
                 <HeaderMiniTextBlock>
                     <HeaderMiniText>
-                        <BlueText>Stake</BlueText>
-                        USQ, ATOM,
+                        <BlueText>Stake </BlueText>
+                         USQ, ATOM,
                         TIA & more!
                     </HeaderMiniText>
                 </HeaderMiniTextBlock>
