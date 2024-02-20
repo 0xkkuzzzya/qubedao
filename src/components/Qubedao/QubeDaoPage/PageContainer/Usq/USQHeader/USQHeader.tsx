@@ -30,7 +30,7 @@ const TokenLogo = styled.img`
     margin-right: 50px;
     @media (max-width: 500px) {
         margin-right: 30px;
-        width: 150px;
+        width: 145px;
     }
 `
 

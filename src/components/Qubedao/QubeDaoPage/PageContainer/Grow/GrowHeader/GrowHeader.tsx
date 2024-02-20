@@ -33,19 +33,26 @@ const TokenNameBlock = styled.div`
 
 const TokenName = styled.h1`
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 700;
     color: #222222;
+    margin-left: 3px;
+    @media (max-width: 500px) {
+        font-size: 18px;
+    }
 `
 
 const TokenNameLogo = styled.img`
     width: 30px;
+    @media (max-width: 500px) {
+        width: 25px;
+    }
 `
 
 const TokenLogo = styled.img`
     width: 150px;
     margin-top: -40px;
     @media (max-width: 500px) {
-        width: 130px;
+        width: 120px;
     }
 `
 
