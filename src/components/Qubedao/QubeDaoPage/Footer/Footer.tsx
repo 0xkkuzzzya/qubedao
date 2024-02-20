@@ -18,7 +18,7 @@ const FooterText = styled.a`
     font-weight: 600;
     color: white;
     @media (max-width: 500px) {
-        font-size: 25px;
+        font-size: 22px;
     }
 `
 
