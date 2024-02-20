@@ -12,12 +12,18 @@ const Header = styled.div`
 
 const Logo = styled.img`
     width: 45px;
+    @media (max-width: 500px) {
+        width: 40px;
+    }
 `
 
 const HeaderText = styled.a`
     font-size: 22px;
     font-weight: 600;
     color: white;
+    @media (max-width: 500px) {
+        font-size: 18px;
+    }
 `
 
 
