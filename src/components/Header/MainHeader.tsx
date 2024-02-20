@@ -35,10 +35,10 @@ const NavBlock = styled.div`
 export const MainHeader = () => {
 
     const isDes = useMediaQuery({
-        query: "(min-device-width: 950px)",
+        query: "(min-device-width: 1000px)",
     });
     const isMob = useMediaQuery({
-        query: "(max-device-width: 950px)",
+        query: "(max-device-width: 1000px)",
     });
 
     return (

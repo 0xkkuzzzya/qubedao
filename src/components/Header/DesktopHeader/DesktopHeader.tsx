@@ -34,7 +34,7 @@ export const DesktopHeader = () => {
                 <Customlink to="/useQube">Use QUBE</Customlink>
             </LinkBlock>
             
-            <LinkBlock style={{marginRight: "100px"}}>
+            <LinkBlock style={{marginRight: "60px"}}>
                 <Customlink to="/developer">Developer</Customlink>
             </LinkBlock>
         </Header>

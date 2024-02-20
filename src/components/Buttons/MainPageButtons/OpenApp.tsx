@@ -11,6 +11,9 @@ const Button = styled.div`
     justify-content: center;
     align-items: center;
     margin-right: 10px;
+    @media (max-width: 500px) {
+        width: 180px;
+    }
 `
 
 const ButtonText = styled.a`

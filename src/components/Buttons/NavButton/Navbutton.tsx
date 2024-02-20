@@ -6,8 +6,7 @@ const ButtonBlock = styled.div`
     width: 100%;
     display: flex;
     justify-content: flex-end;
-    
-    @media (min-width: 950px) {
+    @media (min-width: 1000px) {
         display: none;
     }
 `
