@@ -5,6 +5,7 @@ import { GrowHeader } from "./Grow/GrowHeader/GrowHeader";
 import { GrowInfo } from "./Grow/GrowInfo/GrowInfo";
 import { Exchange } from "./Exchange/Exchange";
 import { Liquid } from "./Liquid/Liquid";
+import Arrow from '../../../../assets/svg/Arrow.svg'
 
 
 const Container = styled.div`
@@ -45,6 +46,12 @@ const LinkBlock = styled.div`
     margin-top: 30px;
 `
 
+const ArrowLogo = styled.img`
+    width: 20px;
+    margin-left: 10px;
+    margin-top: 3px;
+`
+
 const LinkText = styled.a`
     font-size: 25px;
     font-weight: 600;
@@ -74,6 +81,7 @@ export const PageContainer = () => {
                 <LinkText>
                     Explore the ecosystem
                 </LinkText>
+                <ArrowLogo src={Arrow}></ArrowLogo>
             </LinkBlock>
         </Container>
     )

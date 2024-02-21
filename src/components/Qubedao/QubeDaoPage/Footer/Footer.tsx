@@ -76,7 +76,7 @@ export const Footer = () => {
             <FooterTextBlock>
                 <FooterText>
                 Qube is an open-source 
-                staiblecoin network controlled 
+                stablecoin network controlled 
                 by its <BlueText>stakeholders</BlueText>
                 </FooterText>
             </FooterTextBlock>

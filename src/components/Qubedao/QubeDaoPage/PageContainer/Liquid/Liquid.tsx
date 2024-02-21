@@ -56,7 +56,7 @@ const MinterInfo = styled.a`
 
 const GreyText = styled.a`
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 500;
     color: #B7BDC6;
     @media (max-width: 500px) {
         font-size: 12px;

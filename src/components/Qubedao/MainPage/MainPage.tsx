@@ -62,6 +62,7 @@ const GreyText = styled.h4`
     font-size: 23px;
     color: #B7BDC6;
     margin-top: 20px;
+    font-weight: 500;
     @media (max-width: 500px) {
         text-align: left;
         font-size: 16px;
@@ -106,7 +107,7 @@ export const MainPage = () => {
                     Money for the <br/>Interchain
                     </MainText>
                     <GreyText>
-                        Qube is an appchain of alogorithmic staiblecoins aimed at demecratizing decentralized finance for everyone.
+                        Qube is an appchain of alogorithmic stablecoins aimed at democratizing decentralized finance for everyone.
                     </GreyText>
                     <ButtonBlock>
                         <OpenAppButton/>
