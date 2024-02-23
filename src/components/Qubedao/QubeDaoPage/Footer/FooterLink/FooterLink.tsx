@@ -9,6 +9,10 @@ const Container = styled.div`
     margin-top: 100px;
     font-size: 18px;
     text-decoration: none;
+    @media (max-width: 600px) {
+        flex-direction: column;
+        gap: 40px;
+    }
 `
 
 const Block1 = styled.div`
