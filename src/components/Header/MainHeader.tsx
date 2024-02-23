@@ -8,7 +8,7 @@ import { NavButton } from "../Buttons/NavButton/Navbutton";
 
 const Header = styled.div`
     width: 100%;
-    height: 70px;
+    height: 100px;
     background: #151516;
     display: flex;
     align-items: center;

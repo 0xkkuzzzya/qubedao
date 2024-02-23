@@ -1,13 +1,14 @@
 import styled from "styled-components";
 import { FooterHeader } from "./FooterHeader/FooterHeader";
+import { FooterLink } from "./FooterLink/FooterLink";
 
 const Container = styled.div`
-    width: 100%;
-    margin-top: 40px;
+    width: 80%;
+    margin-top: 100px;
 `
 
 const FooterTextBlock = styled.div`
-    width: 70%;
+    width: 100%;
     @media (max-width: 500px) {
         width: 100%;
     }
@@ -34,7 +35,7 @@ const BlueText = styled.a`
 `
 
 const GreyTextBlock = styled.div`
-    width: 60%;
+    width: 65%;
     margin-top: 15px;
     @media (max-width: 500px) {
         width: 90%;
@@ -87,6 +88,7 @@ export const Footer = () => {
             <LinkButton>
                 <ButtonText>Explore QUBE</ButtonText>
             </LinkButton>
+            <FooterLink/>
         </Container>
     )
 }

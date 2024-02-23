@@ -72,14 +72,24 @@ const GreyText = styled.h4`
     }
 `
 
-const MainPageImg = styled.img`
-    width: 450px;
-    margin-top: -65px;
+const MainPageImgBlock = styled.div`
+    width: 100%;
+    display: flex;
     @media (max-width: 600px) {
-        width: 370px;
+        justify-content: center;
     }
-    @media (max-width: 500px) {
-        width: 300px;
+`
+
+const MainPageImg = styled.img`
+    width: 400px;
+    margin-top: -65px;
+    margin-right: 50px;
+    @media (max-width: 600px) {
+        width: 270px;
+        margin-right: 0px;
+    }
+    @media (max-width: 320px) {
+        width: 230px;
     }
 `
 
@@ -99,9 +109,9 @@ export const MainPage = () => {
     return(
         <MainPageBlock>
             <Container>
-                <div>
+                <MainPageImgBlock>
                     <MainPageImg src={MainPageLogo}></MainPageImg>
-                </div>
+                </MainPageImgBlock>
                 <TextBlock>
                     <MainText>
                     Money for the <br/>Interchain

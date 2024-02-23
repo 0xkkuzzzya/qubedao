@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import QubeLogo from '../../../../../assets/svg/QubeLogo.svg'
+import QubeLogo from '../../../../../assets/svg/QuveLogoPage2.svg'
 
 const Container = styled.div`
     width: 100%;
