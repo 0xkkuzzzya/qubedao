@@ -42,7 +42,7 @@ const GreyBlock = styled.div`
     margin-left: 20px;
     margin-top: 3px;
     @media (max-width: 500px) {
-        width: 100%;
+        width: 95%;
     }
 `
 

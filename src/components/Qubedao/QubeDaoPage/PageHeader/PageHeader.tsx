@@ -16,7 +16,7 @@ const Header = styled.div <{margin: string, opacity: string}>`
     @media (max-width: 600px) {
         flex-direction: column;
         align-items: flex-start;
-        margin-bottom: 0px;
+        margin-bottom: 20px;
     }
 `
 
