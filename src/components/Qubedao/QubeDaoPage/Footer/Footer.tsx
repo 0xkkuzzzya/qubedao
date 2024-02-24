@@ -1,10 +1,14 @@
 import styled from "styled-components";
 import { FooterHeader } from "./FooterHeader/FooterHeader";
 import { FooterLink } from "./FooterLink/FooterLink";
+import { useInView } from "react-intersection-observer";
 
-const Container = styled.div`
+const Container = styled.div <{margin: string, opacity: string}>`
     width: 80%;
     margin-top: 100px;
+    margin-top: ${(props: { margin: any; }) => props.margin};
+    opacity: ${(props: { opacity: any; }) => props.opacity};
+    transition: all .3s ease-in-out;
 `
 
 const FooterTextBlock = styled.div`
@@ -71,8 +75,16 @@ const ButtonText = styled.a`
 
 
 export const Footer = () => {
+    
+    const { ref, inView } = useInView({
+        threshold: 0.2,
+        triggerOnce: true
+      });
+
     return(
-        <Container>
+        <Container ref={ref} 
+        margin={inView == true ? '0px' : '30px'}
+        opacity={inView == true ? '1' : '0'}>
             <FooterHeader/>
             <FooterTextBlock>
                 <FooterText>
@@ -88,7 +100,6 @@ export const Footer = () => {
             <LinkButton>
                 <ButtonText>Explore QUBE</ButtonText>
             </LinkButton>
-            <FooterLink/>
         </Container>
     )
 }

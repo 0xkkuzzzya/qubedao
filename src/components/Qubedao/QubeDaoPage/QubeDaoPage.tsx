@@ -3,6 +3,7 @@ import { PageHeader } from "./PageHeader/PageHeader";
 import { PageContainer } from "./PageContainer/PageContainer";
 import { Footer } from "./Footer/Footer";
 import { PageInfoQUBE } from "./PageInfoQUBE/PageInfoQUBE";
+import { FooterLink } from "./Footer/FooterLink/FooterLink";
 
 const PageBlock = styled.div`
     width: 100%;
@@ -27,6 +28,7 @@ export const QubeDaoPage = () => {
             <PageContainer/>
             <PageInfoQUBE/>
             <Footer/>
+            <FooterLink/>
         </PageBlock>
     )
 }
