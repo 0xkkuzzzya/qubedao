@@ -6,7 +6,7 @@ import { QubeDao } from "./Qubedao/QubeDao";
 const Container = styled.div`
     width: 100%;
     background: #151516;
-    overflow: hidden;
+    -webkit-tap-highlight-color: transparent;
 `
 
 

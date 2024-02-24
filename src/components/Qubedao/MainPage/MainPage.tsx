@@ -75,7 +75,7 @@ const GreyText = styled.h4`
 const MainPageImgBlock = styled.div`
     width: 100%;
     display: flex;
-    @media (max-width: 600px) {
+    @media (max-width: 1000px) {
         justify-content: center;
     }
 `
@@ -84,9 +84,11 @@ const MainPageImg = styled.img`
     width: 400px;
     margin-top: -65px;
     margin-right: 50px;
+    @media (max-width: 1000px) {
+        margin-right: 0px;
+    }
     @media (max-width: 600px) {
         width: 270px;
-        margin-right: 0px;
     }
     @media (max-width: 320px) {
         width: 230px;
