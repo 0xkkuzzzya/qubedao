@@ -5,10 +5,12 @@ import { useInView } from "react-intersection-observer";
 
 const Container = styled.div <{margin: string, opacity: string}>`
     width: 80%;
-    margin-top: 100px;
     margin-top: ${(props: { margin: any; }) => props.margin};
     opacity: ${(props: { opacity: any; }) => props.opacity};
     transition: all .3s ease-in-out;
+    @media (max-width: 600px) {
+        width: 95%;
+    }
 `
 
 const FooterTextBlock = styled.div`

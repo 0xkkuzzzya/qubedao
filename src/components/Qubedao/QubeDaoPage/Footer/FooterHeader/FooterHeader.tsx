@@ -3,6 +3,7 @@ import QubeCicrle from '../../../../../assets/svg/QubeCircle.svg'
 
 const Container = styled.div`
     width: 100%;
+    margin-top: 100px;
 `
 
 const Header = styled.div`

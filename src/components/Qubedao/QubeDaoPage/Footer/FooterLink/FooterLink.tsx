@@ -1,17 +1,18 @@
 import styled from "styled-components";
 
 const Container = styled.div`
-    width: 100%;
+    width: 80%;
     display: flex;
     justify-content: space-between;
     gap: 20px;
     color: #B7BDC6;
-    margin-top: 100px;
+    margin-top: 60px;
     font-size: 18px;
     text-decoration: none;
     @media (max-width: 600px) {
         flex-direction: column;
         gap: 40px;
+        width: 95%;
     }
 `
 
