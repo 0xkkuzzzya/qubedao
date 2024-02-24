@@ -1,8 +1,25 @@
 import styled from "styled-components";
 import QubeLogo from '../../../../../assets/svg/QuveLogoPage2.svg'
+import { useInView } from "react-intersection-observer";
 
 const Container = styled.div`
     width: 100%;
+    display: flex;
+    justify-content: center;
+`
+
+const Block = styled.div <{marginM: string, opacityM: string}>`
+    width: 550px;
+    height: 170px;
+    border-radius: 20px;
+    margin-top: ${(props: { marginM: any; }) => props.marginM};
+    opacity: ${(props: { opacityM: any; }) => props.opacityM};
+    transition: all .3s ease-in-out;
+    margin-bottom: 30px;
+    background: #1B1B1C;
+    @media (max-width: 600px) {
+        width: 100%;
+    }
 `
 
 const ContainerHeader = styled.div`
@@ -65,22 +82,32 @@ const GreyText = styled.a`
 
 
 export const Liquid = () => {
+
+    const { ref, inView } = useInView({
+        threshold: 0.3,
+        triggerOnce: true
+      });
+
     return(
         <Container>
-            <ContainerHeader>
-                <Logo src={QubeLogo}></Logo>
-                <Name>Liquid</Name>
-            </ContainerHeader>
-            <InfoBlock>
-                <MinterInfo>
-                    Staking without lock-ups
-                </MinterInfo>
-            </InfoBlock>
-            <GreyBlock>
-                <GreyText>
-                    Liquid staking with the highest APYs. Support decentralized validator set that helps Qube to evolve
-                </GreyText>
-            </GreyBlock>
+            <Block ref={ref} 
+            marginM={inView == true ? '0px' : '30px'}
+            opacityM={inView == true ? '1' : '0'}>
+                <ContainerHeader>
+                    <Logo src={QubeLogo}></Logo>
+                    <Name>Liquid</Name>
+                </ContainerHeader>
+                <InfoBlock>
+                    <MinterInfo>
+                        Staking without lock-ups
+                    </MinterInfo>
+                </InfoBlock>
+                <GreyBlock>
+                    <GreyText>
+                        Liquid staking with the highest APYs. Support decentralized validator set that helps Qube to evolve
+                    </GreyText>
+                </GreyBlock>
+            </Block>
         </Container>
     )
 }

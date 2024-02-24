@@ -1,8 +1,12 @@
 import styled from "styled-components";
 import QubeLogo from '../../../../assets/svg/QubeLogo.svg'
+import { useInView } from 'react-intersection-observer';
 
-const Header = styled.div`
+const Header = styled.div <{margin: string, opacity: string}>`
     width: 100%;
+    margin-top: ${(props: { margin: any; }) => props.margin};
+    opacity: ${(props: { opacity: any; }) => props.opacity};
+    transition: all .3s ease-in-out;
     align-items: center;
     display: flex;
     color: white;
@@ -63,8 +67,17 @@ const HeaderLogo = styled.img`
 
 
 export const PageHeader = () => {
+
+    const { ref, inView } = useInView({
+        threshold: 0.8,
+        triggerOnce: true
+      });
+
     return (
-        <Header>
+        <Header ref={ref} 
+        margin={inView == true ? '0px' : '30px'}
+        opacity={inView == true ? '1' : '0'}
+        >
             <TextBlock>
                 <HeaderText1>Explore the</HeaderText1>
             </TextBlock>

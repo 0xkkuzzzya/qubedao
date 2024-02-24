@@ -6,6 +6,10 @@ import { GrowInfo } from "./Grow/GrowInfo/GrowInfo";
 import { Exchange } from "./Exchange/Exchange";
 import { Liquid } from "./Liquid/Liquid";
 import Arrow from '../../../../assets/svg/Arrow.svg'
+import { useInView } from 'react-intersection-observer';
+import { useEffect, useState } from "react";
+import { Usq } from "./Usq/Usq";
+import { Grow } from "./Grow/Grow";
 
 
 const Container = styled.div`
@@ -13,29 +17,6 @@ const Container = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-`
-
-const MineterGrowBlock = styled.div`
-    width: 550px;
-    height: 350px;
-    border-radius: 20px;
-    margin-top: 30px;
-    background: #1B1B1C;
-    @media (max-width: 600px) {
-        width: 100%;
-        height: 300px;
-    }
-`
-
-const LiquidExchangeBlock = styled.div`
-    width: 550px;
-    height: 170px;
-    border-radius: 20px;
-    margin-top: 30px;
-    background: #1B1B1C;
-    @media (max-width: 600px) {
-        width: 100%;
-    }
 `
 
 const LinkBlock = styled.div`
@@ -60,23 +41,13 @@ const LinkText = styled.a`
 `
 
 
-export const PageContainer = () => {
+export const PageContainer = () => {   
     return (
         <Container>
-            <MineterGrowBlock>
-                <USQBlock></USQBlock>
-                <USQInfo></USQInfo>
-            </MineterGrowBlock>
-            <MineterGrowBlock>
-                <GrowHeader></GrowHeader>
-                <GrowInfo></GrowInfo>
-            </MineterGrowBlock>
-            <LiquidExchangeBlock>
-                <Exchange></Exchange>
-            </LiquidExchangeBlock>
-            <LiquidExchangeBlock>
-                <Liquid></Liquid>
-            </LiquidExchangeBlock>
+            <Usq></Usq>
+            <Grow></Grow>
+            <Exchange></Exchange>
+            <Liquid></Liquid>
             <LinkBlock>
                 <LinkText>
                     Explore the ecosystem
@@ -86,6 +57,7 @@ export const PageContainer = () => {
         </Container>
     )
 }
+
 
 
 
