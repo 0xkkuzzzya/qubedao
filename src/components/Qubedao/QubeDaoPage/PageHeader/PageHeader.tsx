@@ -69,15 +69,14 @@ const HeaderLogo = styled.img`
 export const PageHeader = () => {
 
     const { ref, inView } = useInView({
-        threshold: 0.8,
+        threshold: 0.5,
         triggerOnce: true
       });
 
     return (
         <Header ref={ref} 
         margin={inView == true ? '0px' : '30px'}
-        opacity={inView == true ? '1' : '0'}
-        >
+        opacity={inView == true ? '1' : '0'}>
             <TextBlock>
                 <HeaderText1>Explore the</HeaderText1>
             </TextBlock>

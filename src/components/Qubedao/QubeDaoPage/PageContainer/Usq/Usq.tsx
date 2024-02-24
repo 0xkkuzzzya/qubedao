@@ -21,7 +21,7 @@ const MinterBlock = styled.div <{marginM: string, opacityM: string}>`
 export const Usq = () => {
 
     const { ref, inView } = useInView({
-        threshold: 0.3,
+        threshold: 0.1,
         triggerOnce: true
       });
 

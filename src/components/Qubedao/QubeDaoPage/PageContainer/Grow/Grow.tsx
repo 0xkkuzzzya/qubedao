@@ -19,10 +19,12 @@ const MinterBlock = styled.div <{marginM: string, opacityM: string}>`
 `
 
 export const Grow = () => {
+
     const { ref, inView } = useInView({
         threshold: 0.1,
         triggerOnce: true
       });
+      
     return(
         <MinterBlock ref={ref} 
             marginM={inView == true ? '0px' : '30px'}
