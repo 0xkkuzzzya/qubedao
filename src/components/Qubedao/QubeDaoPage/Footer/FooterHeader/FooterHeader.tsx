@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import QubeCicrle from '../../../../../assets/svg/QubeCircle.svg'
+import QubeCicrle from '../../../../../assets/svg/QubeCircle.webp'
 
 const Container = styled.div`
     width: 100%;

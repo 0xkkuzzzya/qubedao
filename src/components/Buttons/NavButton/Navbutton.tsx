@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import NavLogo from '../../../assets/svg/NavLogo.svg'
+import NavLogo from '../../../assets/svg/NavLogo.webp'
 import { useHeaderStore } from "../../../hooks/useHeaderStore";
 
 const ButtonBlock = styled.div`
