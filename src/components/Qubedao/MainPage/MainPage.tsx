@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import MainPageLogo from '../../../assets/svg/MainPageImg.svg'
+import MainPageLogo from '../../../assets/svg/MainPageImg.webp'
 import { OpenAppButton } from "../../Buttons/MainPageButtons/OpenApp";
 import { CommunityButton } from "../../Buttons/MainPageButtons/Community";
 
