@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Qube from '../../assets/svg/QubeLogo.svg'
+import Qube from '../../assets/svg/QubeLogo.webp'
 import { DesktopHeader } from "./DesktopHeader/DesktopHeader";
 import { LogoLink } from "./CustomLink/LogoLink/LogoLink";
 import { useMediaQuery } from 'react-responsive'

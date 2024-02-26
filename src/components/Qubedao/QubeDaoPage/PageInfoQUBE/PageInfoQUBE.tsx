@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import QubeLogo from '../../../../assets/svg/QubeLogo.svg'
+import QubeLogo from '../../../../assets/svg/QubeLogo.webp'
 import { MainHeader } from "../../../Header/MainHeader";
 import { InfoQUBEContainer } from "./InfoQUBEContainer/InfoQUBEContainer";
 

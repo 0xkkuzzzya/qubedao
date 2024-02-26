@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import QubeLogo from '../../../../assets/svg/QubeLogo.svg'
+import QubeLogo from '../../../../assets/svg/QubeLogo.webp'
 import { useInView } from 'react-intersection-observer';
 
 const Header = styled.div <{margin: string, opacity: string}>`

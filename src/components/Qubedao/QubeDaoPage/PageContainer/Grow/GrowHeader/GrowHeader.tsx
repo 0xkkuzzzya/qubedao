@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import AtomLogo from '../../../../../../assets/svg/AtomLogo.svg'
-import QubeLogo from '../../../../../../assets/svg/QubeLogo.svg'
+import AtomLogo from '../../../../../../assets/svg/AtomLogo.webp'
+import QubeLogo from '../../../../../../assets/svg/QubeLogo.webp'
 
 const Container = styled.div`
     width: 100%;
