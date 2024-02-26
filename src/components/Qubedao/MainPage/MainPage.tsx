@@ -119,7 +119,7 @@ export const MainPage = () => {
                     Money for the <br/>Interchain
                     </MainText>
                     <GreyText>
-                        Qube is an appchain of alogorithmic stablecoins aimed at democratizing decentralized finance for everyone.
+                        Qube is an appchain of algorithmic stablecoins aimed at democratizing decentralized finance for everyone.
                     </GreyText>
                     <ButtonBlock>
                         <OpenAppButton/>

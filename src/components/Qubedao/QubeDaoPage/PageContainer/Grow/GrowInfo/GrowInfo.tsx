@@ -14,8 +14,8 @@ const ContainerHeader = styled.div`
 `
 
 const MinterLogo = styled.img`
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
 `
 
 const MinterName = styled.a`

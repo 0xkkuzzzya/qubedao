@@ -40,7 +40,7 @@ const Block1UndrText = styled.a`
 
 export const Block1 = () => {
 
-    let Block1Text = '<0.05%'
+    let Block1Text = '<0.05$'
 
     const { ref, inView } = useInView({
         threshold: 0.5,

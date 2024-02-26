@@ -31,8 +31,8 @@ const ContainerHeader = styled.div`
 `
 
 const Logo = styled.img`
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
 `
 
 const Name = styled.a`
@@ -95,7 +95,7 @@ export const Liquid = () => {
             opacityM={inView == true ? '1' : '0'}>
                 <ContainerHeader>
                     <Logo src={QubeLogo}></Logo>
-                    <Name>Liquid</Name>
+                    <Name>Liquid Staking</Name>
                 </ContainerHeader>
                 <InfoBlock>
                     <MinterInfo>

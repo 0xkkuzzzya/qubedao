@@ -14,8 +14,8 @@ const ContainerHeader = styled.div`
 `
 
 const MinterLogo = styled.img`
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
 `
 
 const MinterName = styled.a`
@@ -43,6 +43,7 @@ const GreyBlock = styled.div`
     margin-top: 3px;
     @media (max-width: 500px) {
         width: 95%;
+        margin-top: 0px;
     }
 `
 
@@ -75,7 +76,7 @@ export const USQInfo = () => {
                 </ContainerHeader>
                 <InfoBlock>
                     <MinterInfo>
-                        Capital efficient decentralized 
+                        Capital-efficient decentralized 
                         stablecoins
                     </MinterInfo>
                 </InfoBlock>

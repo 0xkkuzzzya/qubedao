@@ -31,8 +31,8 @@ const ContainerHeader = styled.div`
 `
 
 const Logo = styled.img`
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
 `
 
 const Name = styled.a`

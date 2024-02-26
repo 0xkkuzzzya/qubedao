@@ -24,7 +24,7 @@ const LinkBlock = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 20px;
 `
 
 const ArrowLogo = styled.img`
@@ -34,7 +34,7 @@ const ArrowLogo = styled.img`
 `
 
 const LinkText = styled.a`
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 600;
     color: white;
     
