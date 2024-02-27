@@ -25,6 +25,10 @@ const LinkBlock = styled.div`
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+    @media (max-width: 500px) {
+        font-size: 18px;
+        margin-top: 10px
+    }
 `
 
 const ArrowLogo = styled.img`
@@ -37,7 +41,9 @@ const LinkText = styled.a`
     font-size: 20px;
     font-weight: 600;
     color: white;
-    
+    @media (max-width: 500px) {
+        font-size: 18px;
+    }
 `
 
 

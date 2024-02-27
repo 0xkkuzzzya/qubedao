@@ -48,6 +48,9 @@ const HeaderMiniText = styled.a`
 
 const HeaderLogo = styled.img`
     width: 30px;
+    @media (max-width: 500px) {
+        width: 20px;
+    }
 `
 
 const BlueTextPhase1 = styled.a`

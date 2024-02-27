@@ -26,13 +26,13 @@ const ContainerHeader = styled.div`
     width: 100%; 
     display: flex;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 15px;
     margin-left: 20px;
 `
 
 const Logo = styled.img`
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
 `
 
 const Name = styled.a`
@@ -41,7 +41,7 @@ const Name = styled.a`
     color: white;
     margin-left: 10px;
     @media (max-width: 500px) {
-        font-size: 20px;
+        font-size: 16px;
     }
 `
 
@@ -51,7 +51,7 @@ const InfoBlock = styled.div`
     margin-left: 20px;
     @media (max-width: 500px) {
         width: 80%;
-        margin-top: 10px;
+        margin-top: 25px;
     }
 `
 

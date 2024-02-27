@@ -27,7 +27,7 @@ const TokenNameBlock = styled.div`
     display: flex;
     align-items: center;
     @media (max-width: 500px) {
-        margin-top: 20px;
+        margin-top: 10px;
     }
 `
 
@@ -37,14 +37,14 @@ const TokenName = styled.h1`
     color: #222222;
     margin-left: 3px;
     @media (max-width: 500px) {
-        font-size: 18px;
+        font-size: 16px;
     }
 `
 
 const TokenNameLogo = styled.img`
     width: 30px;
     @media (max-width: 500px) {
-        width: 25px;
+        width: 20px;
     }
 `
 
@@ -53,6 +53,7 @@ const TokenLogo = styled.img`
     margin-top: -40px;
     @media (max-width: 500px) {
         width: 120px;
+        margin-top: -30px;
     }
 `
 
