@@ -81,7 +81,7 @@ export const GrowInfo = () => {
             </InfoBlock>
             <GreyBlock>
                 <GreyText>
-                    Lend, borrow & stake at the highest rates. Bid on liquidated callateral wuthout bots.
+                    Lend, borrow & stake at the highest rates. Bid on liquidated collateral without bots.
                 </GreyText>
             </GreyBlock>
         </Container>
