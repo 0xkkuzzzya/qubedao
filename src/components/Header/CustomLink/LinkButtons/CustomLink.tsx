@@ -31,7 +31,7 @@ export const Customlink = ({children, to}: Props) => {
         <LinkBLock 
         to={to}
         style={{
-            color: match ? '#222' :  '#C0C0C0',
+            color: match ? 'white' :  '#C0C0C0',
             transition: '.2s ease-in-out',
             width: '100%'
         }}

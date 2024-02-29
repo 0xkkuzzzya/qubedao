@@ -19,7 +19,7 @@ export const DesktopHeader = () => {
     return(
         <Header>
             <LinkBlock>
-                <Customlink to="/Launch">Launch</Customlink>
+                <Customlink to="/launch">Launch</Customlink>
             </LinkBlock>
 
             <LinkBlock>
@@ -31,7 +31,7 @@ export const DesktopHeader = () => {
             </LinkBlock>
 
             <LinkBlock>
-                <Customlink to="/useQube">Use QUBE</Customlink>
+                <Customlink to="/use">Use QUBE</Customlink>
             </LinkBlock>
             
             <LinkBlock style={{marginRight: "60px"}}>

@@ -38,7 +38,7 @@ export const MobileHeader = () => {
         <Header>
             <HeaderNav height={accordion.height} padding={accordion.active == true ? '10px' : '0px'}>
                     <LinkBlock>
-                        <Customlink to="/Launch">Launch</Customlink>
+                        <Customlink to="/launch">Launch</Customlink>
                     </LinkBlock>
 
                     <LinkBlock>
@@ -50,7 +50,7 @@ export const MobileHeader = () => {
                     </LinkBlock>
 
                     <LinkBlock>
-                        <Customlink to="/useQube">Use QUBE</Customlink>
+                        <Customlink to="/use">Use QUBE</Customlink>
                     </LinkBlock>
 
                     <LinkBlock>

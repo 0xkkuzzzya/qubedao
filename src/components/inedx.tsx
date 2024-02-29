@@ -20,7 +20,7 @@ export const ContainerIndex = () => {
                 <Route path="/launch" element={<></>} />
                 <Route path="/ecosystem" element={<Ecosystem></Ecosystem>} />
                 <Route path="/community" element={<></>} />
-                <Route path="/useQube" element={<></>} />
+                <Route path="/use" element={<></>} />
                 <Route path="/developer" element={<></>} />
                 <Route path="/qubedao" element={<QubeDao></QubeDao>} />
 			</Routes>
