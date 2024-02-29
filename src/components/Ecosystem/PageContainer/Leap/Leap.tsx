@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import QubeLogo from '../../../../../assets/svg/QuveLogoPage2.webp'
+import KeplrLogo from '../../../../assets/svg/KeplrLogo.webp'
 import { useInView } from "react-intersection-observer";
 
 const Container = styled.div`
@@ -81,7 +81,7 @@ const GreyText = styled.a`
 `
 
 
-export const Liquid = () => {
+export const LeapBlock = () => {
 
     const { ref, inView } = useInView({
         threshold: 0.3,
@@ -94,17 +94,17 @@ export const Liquid = () => {
             marginM={inView == true ? '0px' : '30px'}
             opacityM={inView == true ? '1' : '0'}>
                 <ContainerHeader>
-                    <Logo src={QubeLogo}></Logo>
-                    <Name>Liquid Staking</Name>
+                    <Logo src={KeplrLogo}></Logo>
+                    <Name>Leap Wallet</Name>
                 </ContainerHeader>
                 <InfoBlock>
                     <MinterInfo>
-                        Staking without lock-ups
+                        The super wallet for Web3 
                     </MinterInfo>
                 </InfoBlock>
                 <GreyBlock>
                     <GreyText>
-                        Liquid staking with the highest APYs. Support decentralized validator set that helps Qube to evolve.
+                        The simple & safe way to send, swap, and stake your digital assets on Qube Appchain.
                     </GreyText>
                 </GreyBlock>
             </Block>

@@ -82,7 +82,7 @@ export const USQInfo = () => {
                 </InfoBlock>
                 <GreyBlock>
                 <GreyText>
-                    Qube stablecoins are the first fully collateralized, capital-effecient decentralized stablecoins in the world.
+                    Qube stablecoins are the first fully collateralized, capital-efficient decentralized stablecoins in the world.
                     </GreyText>
                 </GreyBlock>
         </Container>

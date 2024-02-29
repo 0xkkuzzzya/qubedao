@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import QubeLogo from '../../../../../assets/svg/QuveLogoPage2.webp'
+import QubeLogo from '../../../../assets/svg/QuveLogoPage2.webp'
 import { useInView } from "react-intersection-observer";
 
 const Container = styled.div`
@@ -47,7 +47,7 @@ const Name = styled.a`
 
 const InfoBlock = styled.div`
     width: 70%;
-    margin-top: 15px;
+    margin-top: 10px;
     margin-left: 20px;
     @media (max-width: 500px) {
         width: 80%;
@@ -58,7 +58,7 @@ const InfoBlock = styled.div`
 const GreyBlock = styled.div`
     width: 80%;
     margin-left: 20px;
-    margin-top: 10px;
+    margin-top: 5px;
     @media (max-width: 500px) {
         width: 90%;
         margin-top: 5px;
@@ -81,7 +81,7 @@ const GreyText = styled.a`
 `
 
 
-export const Liquid = () => {
+export const UsqBlockE = () => {
 
     const { ref, inView } = useInView({
         threshold: 0.3,
@@ -95,16 +95,16 @@ export const Liquid = () => {
             opacityM={inView == true ? '1' : '0'}>
                 <ContainerHeader>
                     <Logo src={QubeLogo}></Logo>
-                    <Name>Liquid Staking</Name>
+                    <Name>Minter</Name>
                 </ContainerHeader>
                 <InfoBlock>
                     <MinterInfo>
-                        Staking without lock-ups
+                        Capital-efficient decentralized stablecoins
                     </MinterInfo>
                 </InfoBlock>
                 <GreyBlock>
                     <GreyText>
-                        Liquid staking with the highest APYs. Support decentralized validator set that helps Qube to evolve.
+                        Qube stablecoins are the first fully collateralized, capital-efficient decentralized stablecoins in the world.
                     </GreyText>
                 </GreyBlock>
             </Block>

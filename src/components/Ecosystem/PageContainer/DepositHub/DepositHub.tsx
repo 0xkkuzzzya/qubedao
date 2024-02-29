@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import QubeLogo from '../../../../../assets/svg/QuveLogoPage2.webp'
+import QubeLogo from '../../../../assets/svg/QuveLogoPage2.webp'
 import { useInView } from "react-intersection-observer";
 
 const Container = styled.div`
@@ -81,7 +81,7 @@ const GreyText = styled.a`
 `
 
 
-export const Liquid = () => {
+export const DepositHub = () => {
 
     const { ref, inView } = useInView({
         threshold: 0.3,
@@ -95,16 +95,16 @@ export const Liquid = () => {
             opacityM={inView == true ? '1' : '0'}>
                 <ContainerHeader>
                     <Logo src={QubeLogo}></Logo>
-                    <Name>Liquid Staking</Name>
+                    <Name>Deposit Hub</Name>
                 </ContainerHeader>
                 <InfoBlock>
                     <MinterInfo>
-                        Staking without lock-ups
+                        Bridge to Qube Appchain securely 
                     </MinterInfo>
                 </InfoBlock>
                 <GreyBlock>
                     <GreyText>
-                        Liquid staking with the highest APYs. Support decentralized validator set that helps Qube to evolve.
+                        Your keys, your coins. Deposit to Qube Appchain from 50+ blockchains via IBC, Wormhole and Axelar.
                     </GreyText>
                 </GreyBlock>
             </Block>

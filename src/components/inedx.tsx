@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { MainHeader } from "./Header/MainHeader";
 import { Routes, Route } from 'react-router-dom';
 import { QubeDao } from "./Qubedao/QubeDao";
+import { Ecosystem } from "./Ecosystem/Ecosystem";
 
 const Container = styled.div`
     width: 100%;
@@ -17,7 +18,7 @@ export const ContainerIndex = () => {
             <Routes>
                 <Route path="/" element={<QubeDao></QubeDao>} />
                 <Route path="/launch" element={<></>} />
-                <Route path="/ecosystem" element={<></>} />
+                <Route path="/ecosystem" element={<Ecosystem></Ecosystem>} />
                 <Route path="/community" element={<></>} />
                 <Route path="/useQube" element={<></>} />
                 <Route path="/developer" element={<></>} />
