@@ -5,6 +5,9 @@ import { EcosystemContainer } from "./PageContainer/PageContainer";
 const Container = styled.div`
     width: 1000px;
     margin: 0 auto;
+    @media (max-width: 1000px) {
+        width: 100%;
+    }
 `
 
 const ContainerBlock = styled.div`

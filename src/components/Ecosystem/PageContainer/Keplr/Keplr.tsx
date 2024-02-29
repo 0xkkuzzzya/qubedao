@@ -18,7 +18,7 @@ const Block = styled.div <{marginM: string, opacityM: string}>`
     margin-bottom: 30px;
     background: #1B1B1C;
     @media (max-width: 600px) {
-        width: 100%;
+        width: 90%;
     }
 `
 
@@ -51,7 +51,7 @@ const InfoBlock = styled.div`
     margin-left: 20px;
     @media (max-width: 500px) {
         width: 80%;
-        margin-top: 25px;
+        margin-top: 20px;
     }
 `
 
@@ -61,7 +61,7 @@ const GreyBlock = styled.div`
     margin-top: 10px;
     @media (max-width: 500px) {
         width: 90%;
-        margin-top: 5px;
+        margin-top: 15px;
     }
 `
 
@@ -75,9 +75,6 @@ const GreyText = styled.a`
     font-size: 14px;
     font-weight: 500;
     color: #B7BDC6;
-    @media (max-width: 500px) {
-        font-size: 12px;
-    }
 `
 
 

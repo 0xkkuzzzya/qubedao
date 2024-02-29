@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import KeplrLogo from '../../../../assets/svg/KeplrLogo.webp'
+import LeapWallet from '../../../../assets/svg/LeapWallet.webp'
 import { useInView } from "react-intersection-observer";
 
 const Container = styled.div`
@@ -18,7 +18,7 @@ const Block = styled.div <{marginM: string, opacityM: string}>`
     margin-bottom: 30px;
     background: #1B1B1C;
     @media (max-width: 600px) {
-        width: 100%;
+        width: 90%;
     }
 `
 
@@ -94,7 +94,7 @@ export const LeapBlock = () => {
             marginM={inView == true ? '0px' : '30px'}
             opacityM={inView == true ? '1' : '0'}>
                 <ContainerHeader>
-                    <Logo src={KeplrLogo}></Logo>
+                    <Logo src={LeapWallet}></Logo>
                     <Name>Leap Wallet</Name>
                 </ContainerHeader>
                 <InfoBlock>

@@ -18,7 +18,7 @@ const Block = styled.div <{marginM: string, opacityM: string}>`
     margin-bottom: 30px;
     background: #1B1B1C;
     @media (max-width: 600px) {
-        width: 100%;
+        width: 90%;
     }
 `
 

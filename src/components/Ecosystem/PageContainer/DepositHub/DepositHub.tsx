@@ -18,7 +18,7 @@ const Block = styled.div <{marginM: string, opacityM: string}>`
     margin-bottom: 30px;
     background: #1B1B1C;
     @media (max-width: 600px) {
-        width: 100%;
+        width: 90%;
     }
 `
 
@@ -51,7 +51,6 @@ const InfoBlock = styled.div`
     margin-left: 20px;
     @media (max-width: 500px) {
         width: 80%;
-        margin-top: 25px;
     }
 `
 
