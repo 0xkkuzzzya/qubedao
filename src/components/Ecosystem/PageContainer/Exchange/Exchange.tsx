@@ -51,7 +51,7 @@ const InfoBlock = styled.div`
     margin-left: 20px;
     @media (max-width: 500px) {
         width: 80%;
-        margin-top: 25px;
+        margin-top: 20px;
     }
 `
 

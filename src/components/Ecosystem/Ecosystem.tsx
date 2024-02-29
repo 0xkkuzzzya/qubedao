@@ -30,6 +30,9 @@ const GreyTextBlock = styled.div`
     display: flex;
     text-align: center;
     margin-bottom: 40px;
+    @media (max-width: 600px) {
+        width: 90%;
+    }
 `
 
 const GreyText = styled.h1`
