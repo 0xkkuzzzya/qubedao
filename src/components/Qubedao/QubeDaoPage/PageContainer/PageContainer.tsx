@@ -14,8 +14,12 @@ import { Grow } from "./Grow/Grow";
 
 const Container = styled.div`
     width: 100%;
+    
+`
+
+const ContainerBlock = styled.div`
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
 `
 
@@ -50,10 +54,16 @@ const LinkText = styled.a`
 export const PageContainer = () => {   
     return (
         <Container>
-            <Usq></Usq>
-            <Grow></Grow>
-            <Exchange></Exchange>
-            <Liquid></Liquid>
+            <ContainerBlock>
+                <div style={{marginRight: "15px"}}>
+                    <Usq></Usq>
+                    <Exchange></Exchange>
+                </div>
+                <div style={{marginLeft: "15px"}}>
+                    <Grow></Grow>
+                    <Liquid></Liquid>
+                </div>
+            </ContainerBlock>
             <LinkBlock>
                 <LinkText>
                     Explore the ecosystem
