@@ -1,15 +1,10 @@
 import styled from "styled-components";
-import { USQInfo } from "./Usq/UsqBlock";
-import { USQBlock } from "./Usq/USQHeader/USQHeader";
-import { GrowHeader } from "./Grow/GrowHeader/GrowHeader";
-import { GrowInfo } from "./Grow/GrowInfo/GrowInfo";
 import { Exchange } from "./Exchange/Exchange";
 import { Liquid } from "./Liquid/Liquid";
 import Arrow from '../../../../assets/svg/Arrow.svg'
-import { useInView } from 'react-intersection-observer';
-import { useEffect, useState } from "react";
 import { Usq } from "./Usq/Usq";
 import { Grow } from "./Grow/Grow";
+import { useMediaQuery } from 'react-responsive'
 
 
 const Container = styled.div`
@@ -17,9 +12,15 @@ const Container = styled.div`
     
 `
 
-const ContainerBlock = styled.div`
+const ContainerBlockDes = styled.div`
     display: flex;
     flex-direction: row;
+    align-items: center;
+`
+
+const ContainerBlockMob = styled.div`
+    display: flex;
+    flex-direction: column;
     align-items: center;
 `
 
@@ -51,25 +52,53 @@ const LinkText = styled.a`
 `
 
 
-export const PageContainer = () => {   
+export const PageContainer = () => {
+
+    const isDes = useMediaQuery({
+        query: "(min-device-width: 1000px)",
+    });
+    const isMob = useMediaQuery({
+        query: "(max-device-width: 1000px)",
+    });
+
+    let IsDesCon =  <>
+                        <ContainerBlockDes>
+                            <div style={{ marginRight: "15px" }}>
+                                <Usq></Usq>
+                                <Exchange></Exchange>
+                            </div>
+                            <div style={{ marginLeft: "15px" }}>
+                                <Grow></Grow>
+                                <Liquid></Liquid>
+                            </div>
+                        </ContainerBlockDes>
+                        <LinkBlock>
+                        <LinkText>
+                            Explore the ecosystem
+                        </LinkText>
+                        <ArrowLogo src={Arrow}></ArrowLogo>
+                        </LinkBlock>
+                    </>
+                    
+
+    let IsMobCon = <ContainerBlockMob>
+                        <Usq></Usq>
+                        <Grow></Grow>
+                        <Exchange></Exchange>
+                        <Liquid></Liquid>
+
+                        <LinkBlock>
+                        <LinkText>
+                            Explore the ecosystem
+                        </LinkText>
+                        <ArrowLogo src={Arrow}></ArrowLogo>
+                         </LinkBlock>
+                    </ContainerBlockMob>
+
     return (
         <Container>
-            <ContainerBlock>
-                <div style={{marginRight: "15px"}}>
-                    <Usq></Usq>
-                    <Exchange></Exchange>
-                </div>
-                <div style={{marginLeft: "15px"}}>
-                    <Grow></Grow>
-                    <Liquid></Liquid>
-                </div>
-            </ContainerBlock>
-            <LinkBlock>
-                <LinkText>
-                    Explore the ecosystem
-                </LinkText>
-                <ArrowLogo src={Arrow}></ArrowLogo>
-            </LinkBlock>
+            {isDes && IsDesCon}
+            {isMob && IsMobCon}
         </Container>
     )
 }
