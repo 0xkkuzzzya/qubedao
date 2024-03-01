@@ -97,7 +97,7 @@ export const Footer = () => {
             </FooterTextBlock>
             <GreyTextBlock>
                 <GreyText>More demand for Qube dApps = more value capture 
-                by QUBE - Qube`s decentralized utility asset.</GreyText>
+                by QUBE — Qube's decentralized utility asset.</GreyText>
             </GreyTextBlock>
             <LinkButton>
                 <ButtonText>Explore QUBE</ButtonText>

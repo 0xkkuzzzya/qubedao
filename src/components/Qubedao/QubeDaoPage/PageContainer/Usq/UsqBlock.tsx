@@ -23,7 +23,7 @@ const MinterName = styled.a`
     font-weight: 600;
     color: white;
     margin-left: 10px;
-    @media (max-width: 500px) {
+    @media (max-width: 600px) {
         font-size: 16px;
     }
 `
@@ -32,7 +32,7 @@ const InfoBlock = styled.div`
     width: 70%;
     margin-top: 8px;
     margin-left: 20px;
-    @media (max-width: 500px) {
+    @media (max-width: 600px) {
         width: 80%;
     }
 `
@@ -41,7 +41,7 @@ const GreyBlock = styled.div`
     width: 80%;
     margin-left: 20px;
     margin-top: 3px;
-    @media (max-width: 500px) {
+    @media (max-width: 600px) {
         width: 95%;
         margin-top: 0px;
     }
@@ -51,7 +51,7 @@ const MinterInfo = styled.a`
     font-size: 22px;
     font-weight: 500;
     color: white;
-    @media (max-width: 500px) {
+    @media (max-width: 600px) {
         font-size: 18px;
     }
 `
@@ -60,7 +60,7 @@ const GreyText = styled.a`
     font-size: 14px;
     font-weight: 500;
     color: #B7BDC6;
-    @media (max-width: 500px) {
+    @media (max-width: 600px) {
         font-size: 12px;
     }
 `

@@ -12,9 +12,9 @@ const Header = styled.div`
 `
 
 const Logo = styled.img`
-    width: 45px;
+    width: 55px;
     @media (max-width: 500px) {
-        width: 40px;
+        width: 45px;
     }
 `
 

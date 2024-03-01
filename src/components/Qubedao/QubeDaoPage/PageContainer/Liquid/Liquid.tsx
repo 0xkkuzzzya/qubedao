@@ -40,7 +40,7 @@ const Name = styled.a`
     font-weight: 600;
     color: white;
     margin-left: 10px;
-    @media (max-width: 500px) {
+    @media (max-width: 600px) {
         font-size: 16px;
     }
 `
@@ -49,7 +49,7 @@ const InfoBlock = styled.div`
     width: 70%;
     margin-top: 15px;
     margin-left: 20px;
-    @media (max-width: 500px) {
+    @media (max-width: 600px) {
         width: 80%;
         margin-top: 25px;
     }
@@ -59,7 +59,7 @@ const GreyBlock = styled.div`
     width: 80%;
     margin-left: 20px;
     margin-top: 10px;
-    @media (max-width: 500px) {
+    @media (max-width: 600px) {
         width: 90%;
         margin-top: 5px;
     }
@@ -75,7 +75,7 @@ const GreyText = styled.a`
     font-size: 14px;
     font-weight: 500;
     color: #B7BDC6;
-    @media (max-width: 500px) {
+    @media (max-width: 600px) {
         font-size: 12px;
     }
 `

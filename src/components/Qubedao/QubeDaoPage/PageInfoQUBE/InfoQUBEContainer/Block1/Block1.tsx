@@ -13,7 +13,7 @@ const Block = styled.div <{margin: string, opacity: string}>`
     flex-direction: column;
     justify-content: center;
     padding-left: 20px;
-    @media (max-width: 500px) {
+    @media (max-width: 600px) {
         width: 200px;
     }
 `
@@ -25,7 +25,7 @@ const Block1MainText = styled.a`
     background: linear-gradient(to right, #7CC1FD, #2D9AFD);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    @media (max-width: 500px) {
+    @media (max-width: 600px) {
         font-size: 50px;
     }
 `
@@ -33,7 +33,7 @@ const Block1MainText = styled.a`
 const Block1UndrText = styled.a`
     font-size: 20px;
     color: #B7BDC6;
-    @media (max-width: 500px) {
+    @media (max-width: 600px) {
         font-size: 16px;
     }
 `

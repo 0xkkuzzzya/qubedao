@@ -10,7 +10,7 @@ const Container = styled.div`
     background: linear-gradient( to right, #D6E0EC, #6FB4F9);
     border-top-right-radius: 30px;
     border-top-left-radius: 30px;
-    @media (max-width: 500px) {
+    @media (max-width: 600px) {
         height: 48%;
     }
 `
@@ -20,7 +20,7 @@ const TokenName = styled.h1`
     font-weight: 600;
     color: #222222;
     margin-left: 50px;
-    @media (max-width: 500px) {
+    @media (max-width: 600px) {
         font-size: 60px;
     }
 `
@@ -28,7 +28,7 @@ const TokenName = styled.h1`
 const TokenLogo = styled.img`
     width: 170px;
     margin-right: 50px;
-    @media (max-width: 500px) {
+    @media (max-width: 600px) {
         margin-right: 30px;
         width: 145px;
     }

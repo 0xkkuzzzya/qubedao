@@ -13,7 +13,7 @@ const Block = styled.div <{margin: string, opacity: string}>`
     justify-content: center;
     flex-direction: column;
     align-items: flex-end;
-    @media (max-width: 500px) {
+    @media (max-width: 600px) {
         width: 290px;
     }
 `
@@ -23,7 +23,7 @@ const Block2MainText = styled.a`
     font-weight: 600;
     color: white;
     margin-right: 20px;
-    @media (max-width: 500px) {
+    @media (max-width: 600px) {
         font-size: 40px;
     }
 `
@@ -34,7 +34,7 @@ const Block2BlueText = styled.a`
     background: linear-gradient(to right, #5DD5E4, #1AA2F8);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    @media (max-width: 500px) {
+    @media (max-width: 600px) {
         font-size: 40px;
     }
 `

@@ -14,7 +14,7 @@ const Block = styled.div <{margin: string, opacity: string}>`
     align-items: flex-end;
     justify-content: center;
     padding-right: 20px;
-    @media (max-width: 500px) {
+    @media (max-width: 600px) {
         width: 310px;
     }
 `
@@ -31,7 +31,7 @@ const Block4BlueText = styled.a`
 const Block1UndrText = styled.a`
     font-size: 20px;
     color: #B7BDC6;
-    @media (max-width: 500px) {
+    @media (max-width: 600px) {
         font-size: 16px;
     }
 `
