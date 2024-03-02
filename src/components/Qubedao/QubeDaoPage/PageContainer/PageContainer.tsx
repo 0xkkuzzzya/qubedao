@@ -9,7 +9,6 @@ import { PagContainerCustomLink } from "./CustomLink/PagContainerCustomLink";
 
 
 const Container = styled.div`
-    width: 100%;
     
 `
 
