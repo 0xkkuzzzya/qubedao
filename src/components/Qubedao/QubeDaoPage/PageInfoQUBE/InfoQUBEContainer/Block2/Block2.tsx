@@ -20,7 +20,7 @@ const Block = styled.div <{margin: string, opacity: string}>`
 
 const Block2MainText = styled.a`
     font-size: 60px;
-    font-weight: 600;
+    font-weight: 500;
     color: white;
     margin-right: 20px;
     @media (max-width: 600px) {
@@ -30,7 +30,7 @@ const Block2MainText = styled.a`
 
 const Block2BlueText = styled.a`
     font-size: 60px;
-    font-weight: 600;
+    font-weight: 500;
     background: linear-gradient(to right, #5DD5E4, #1AA2F8);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

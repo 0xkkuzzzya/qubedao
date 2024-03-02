@@ -20,7 +20,7 @@ const Block = styled.div <{margin: string, opacity: string}>`
 
 const Block3MainText = styled.a`
     font-size: 60px;
-    font-weight: 600;
+    font-weight: 500;
     margin-top: -10px;
     background: linear-gradient(to right, #7CC1FD, #2D9AFD);
     -webkit-background-clip: text;
@@ -33,6 +33,7 @@ const Block3MainText = styled.a`
 const Block3UndrText = styled.a`
     font-size: 18px;
     color: #B7BDC6;
+    font-weight: 500;
     @media (max-width: 600px) {
         font-size: 16px;
     }

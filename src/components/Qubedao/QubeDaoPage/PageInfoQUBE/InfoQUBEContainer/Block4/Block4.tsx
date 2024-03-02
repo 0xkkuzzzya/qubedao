@@ -21,7 +21,7 @@ const Block = styled.div <{margin: string, opacity: string}>`
 
 const Block4BlueText = styled.a`
     font-size: 60px;
-    font-weight: 600;
+    font-weight: 500;
     background: linear-gradient(to right, #9DE7EF, #1AA2F8);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

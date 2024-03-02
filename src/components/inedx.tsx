@@ -3,6 +3,8 @@ import { MainHeader } from "./Header/MainHeader";
 import { Routes, Route } from 'react-router-dom';
 import { QubeDao } from "./Qubedao/QubeDao";
 import { Ecosystem } from "./Ecosystem/Ecosystem";
+import ScrollTop from "./ScrollTop";
+import { FooterLink } from "./Qubedao/QubeDaoPage/Footer/FooterLink/FooterLink";
 
 const Container = styled.div`
     width: 100%;
@@ -15,6 +17,7 @@ export const ContainerIndex = () => {
     return(
         <Container>
             <MainHeader></MainHeader>
+            <ScrollTop/>
             <Routes>
                 <Route path="/" element={<QubeDao></QubeDao>} />
                 <Route path="/launch" element={<></>} />
@@ -24,6 +27,7 @@ export const ContainerIndex = () => {
                 <Route path="/developer" element={<></>} />
                 <Route path="/qubedao" element={<QubeDao></QubeDao>} />
 			</Routes>
+            <FooterLink/>
         </Container>
     )
 }

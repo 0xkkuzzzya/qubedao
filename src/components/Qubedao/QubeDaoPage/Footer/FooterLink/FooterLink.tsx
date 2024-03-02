@@ -2,11 +2,14 @@ import { useMediaQuery } from "react-responsive";
 import styled from "styled-components";
 
 const Container = styled.div`
-    width: 80%;
+    width: 1000px;
+    margin: 0 auto;
     display: flex;
     margin-top: 60px;
+    margin-bottom: 50px;
     @media (max-width: 630px) {
         width: 100%;
+        margin-left: 30px;
     }
 `
 
@@ -52,7 +55,7 @@ const LinkText = styled.a`
 const BlockText = styled.a`
     color: white;
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 500;
 `
 
 const Block2 = styled.div`
@@ -94,32 +97,32 @@ export const FooterLink = () => {
                     <Block1>
                         <BlockText>Use</BlockText>
                         <LinkText href="https://cosmos.network/">Get a wallet</LinkText>
-                        <LinkText>Get QUBE</LinkText>
-                        <LinkText>Deposit</LinkText>
+                        <LinkText href="">Get QUBE</LinkText>
+                        <LinkText href="">Deposit</LinkText>
                     </Block1>
                     <Block2>
                         <BlockText>Learn</BlockText>
-                        <LinkText>Docs</LinkText>
-                        <LinkText>Medium</LinkText>
-                        <LinkText>Primer</LinkText>
-                        <LinkText>USQ Comparison</LinkText>
-                        <LinkText>Qube Ledger</LinkText>
-                        <LinkText>Ecosystem</LinkText>
+                        <LinkText href="https://docs.qubedao.com">Docs</LinkText>
+                        <LinkText href="https://medium.com/@QubeLedger">Medium</LinkText>
+                        <LinkText href="">Primer</LinkText>
+                        <LinkText href="">USQ Comparison</LinkText>
+                        <LinkText href="https://github.com/QubeLedger">Qube Ledger</LinkText>
+                        <LinkText href="/ecosystem">Ecosystem</LinkText>
                     </Block2>
                     <Block3>
                         <BlockText>Products</BlockText>
-                        <LinkText>Swap</LinkText>
-                        <LinkText>Minter (USQ)</LinkText>
-                        <LinkText>Grow</LinkText>
-                        <LinkText>Bridge to Qube</LinkText>
+                        <LinkText href="https://swap.qubedao.com">Swap</LinkText>
+                        <LinkText href="https://minter.qubedao.com">Minter (USQ)</LinkText>
+                        <LinkText href="https://grow.qubedao.com">Grow</LinkText>
+                        <LinkText href="https://bridge.qubedao.com">Bridge to Qube</LinkText>
                     </Block3>
                     <Block4>
                         <BlockText>Community</BlockText>
-                        <LinkText>X (Twitter)</LinkText>
-                        <LinkText>Telegram</LinkText>
-                        <LinkText>Announcements</LinkText>
-                        <LinkText>Forum</LinkText>
-                        <LinkText>Discord</LinkText>
+                        <LinkText href="https://twitter.com/qubeledger">X (Twitter)</LinkText>
+                        <LinkText href="https://t.me/QubeLedger">Telegram</LinkText>
+                        <LinkText href="">Announcements</LinkText>
+                        <LinkText href="https://forum.qubedao.com">Forum</LinkText>
+                        <LinkText href="https://discord.gg/FDjrR3BR">Discord</LinkText>
                     </Block4>
                     </ContainerBlockDes>
 

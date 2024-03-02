@@ -22,7 +22,7 @@ const FooterTextBlock = styled.div`
 
 const FooterText = styled.a`
     font-size: 45px;
-    font-weight: 600;
+    font-weight: 500;
     color: white;
     @media (max-width: 500px) {
         font-size: 22px;
@@ -31,7 +31,7 @@ const FooterText = styled.a`
 
 const BlueText = styled.a`
     font-size: 45px;
-    font-weight: 600;
+    font-weight: 500;
     background: linear-gradient(to right, #7DC1FE, #2D9AFD);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -50,7 +50,7 @@ const GreyTextBlock = styled.div`
 
 const GreyText = styled.a`
     font-size: 23px;
-    font-weight: 600;
+    font-weight: 500;
     color: #B7BDC6;
     margin-top: 10px;
     @media (max-width: 500px) {
@@ -72,7 +72,7 @@ const LinkButton = styled.button`
 const ButtonText = styled.a`
     font-size: 18px;
     color: #111;
-    font-weight: 700;
+    font-weight: 500;
 `
 
 

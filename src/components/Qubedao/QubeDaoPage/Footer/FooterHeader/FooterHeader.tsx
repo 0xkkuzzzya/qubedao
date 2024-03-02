@@ -20,7 +20,7 @@ const Logo = styled.img`
 
 const HeaderText = styled.a`
     font-size: 22px;
-    font-weight: 600;
+    font-weight: 500;
     color: white;
     @media (max-width: 500px) {
         font-size: 18px;

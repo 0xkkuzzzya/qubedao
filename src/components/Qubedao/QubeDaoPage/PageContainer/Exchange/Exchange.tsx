@@ -37,7 +37,7 @@ const Logo = styled.img`
 
 const Name = styled.a`
     font-size: 27px;
-    font-weight: 600;
+    font-weight: 500;
     color: white;
     margin-left: 10px;
     @media (max-width: 600px) {

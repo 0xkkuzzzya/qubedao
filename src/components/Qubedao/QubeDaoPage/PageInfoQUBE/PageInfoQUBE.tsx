@@ -32,7 +32,7 @@ const HeaderMain = styled.div`
 
 const MainHeaderText = styled.a`
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 500;
     color: white;
     @media (max-width: 500px) {
         font-size: 25px;
@@ -41,7 +41,7 @@ const MainHeaderText = styled.a`
 
 const HeaderMiniText = styled.a`
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 500;
     color: #B7BDC6;
     margin: 0px 5px;
 `
@@ -55,7 +55,7 @@ const HeaderLogo = styled.img`
 
 const BlueTextPhase1 = styled.a`
     font-size: 35px;
-    font-weight: 700;
+    font-weight: 600;
     background: linear-gradient(to right, #7CC1FD, #A1D3FF);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

@@ -5,6 +5,7 @@ import Arrow from '../../../../assets/svg/Arrow.svg'
 import { Usq } from "./Usq/Usq";
 import { Grow } from "./Grow/Grow";
 import { useMediaQuery } from 'react-responsive'
+import { PagContainerCustomLink } from "./CustomLink/PagContainerCustomLink";
 
 
 const Container = styled.div`
@@ -44,7 +45,7 @@ const ArrowLogo = styled.img`
 
 const LinkText = styled.a`
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 500;
     color: white;
     @media (max-width: 500px) {
         font-size: 18px;
@@ -73,10 +74,10 @@ export const PageContainer = () => {
                             </div>
                         </ContainerBlockDes>
                         <LinkBlock>
-                        <LinkText>
-                            Explore the ecosystem
-                        </LinkText>
-                        <ArrowLogo src={Arrow}></ArrowLogo>
+                        <PagContainerCustomLink to="/ecosystem">
+                            <LinkText> Explore the ecosystem </LinkText>
+                            <ArrowLogo src={Arrow}></ArrowLogo>
+                        </PagContainerCustomLink>
                         </LinkBlock>
                     </>
                     
@@ -86,13 +87,12 @@ export const PageContainer = () => {
                         <Grow></Grow>
                         <Exchange></Exchange>
                         <Liquid></Liquid>
-
                         <LinkBlock>
-                        <LinkText>
-                            Explore the ecosystem
-                        </LinkText>
-                        <ArrowLogo src={Arrow}></ArrowLogo>
-                         </LinkBlock>
+                        <PagContainerCustomLink to="/ecosystem">
+                            <LinkText> Explore the ecosystem </LinkText>
+                            <ArrowLogo src={Arrow}></ArrowLogo>
+                        </PagContainerCustomLink>
+                        </LinkBlock>
                     </ContainerBlockMob>
 
     return (
@@ -102,6 +102,7 @@ export const PageContainer = () => {
         </Container>
     )
 }
+
 
 
 

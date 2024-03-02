@@ -37,7 +37,7 @@ const Logo = styled.img`
 
 const Name = styled.a`
     font-size: 27px;
-    font-weight: 600;
+    font-weight: 500;
     color: white;
     margin-left: 10px;
     @media (max-width: 600px) {
@@ -52,6 +52,9 @@ const InfoBlock = styled.div`
     @media (max-width: 600px) {
         width: 80%;
         margin-top: 25px;
+    }
+    @media (max-width: 380px) {
+        margin-top: 10px;
     }
 `
 

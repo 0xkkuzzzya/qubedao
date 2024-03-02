@@ -46,7 +46,7 @@ const MainText = styled.h1`
     color: #E9E9EB;
     font-size: 80px;
     margin: 0;
-    font-weight: 600;
+    font-weight: 500;
     @media (max-width: 1000px) {
         text-align: center;
     }
@@ -62,12 +62,11 @@ const GreyText = styled.h4`
     font-size: 23px;
     color: #B7BDC6;
     margin-top: 20px;
-    font-weight: 500;
+    font-weight: 400;
     @media (max-width: 500px) {
         text-align: left;
         font-size: 16px;
         width: 85%;
-        font-weight: 500;
         color: #969696;
     }
 `
