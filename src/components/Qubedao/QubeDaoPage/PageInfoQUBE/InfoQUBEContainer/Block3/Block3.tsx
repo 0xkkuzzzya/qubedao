@@ -51,7 +51,7 @@ export const Block3 = () => {
         <Block ref={ref} 
         margin={inView == true ? '0px' : '30px'} 
         opacity={inView == true ? '1' : '0'}>
-            <Block3MainText>$2.5B+</Block3MainText>
+            <Block3MainText>$3B+</Block3MainText>
             <Block3UndrText>Assets in economic security</Block3UndrText>
         </Block>
     )
