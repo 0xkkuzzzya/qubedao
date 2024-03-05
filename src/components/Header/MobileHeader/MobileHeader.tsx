@@ -27,6 +27,7 @@ const LinkBlock = styled.div`
     width: 90%;
     border-radius: 10px;
     margin-top: 10px;
+    display: flex;
 `
 
 
