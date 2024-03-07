@@ -13,18 +13,18 @@ const ContainerHeader = styled.div`
     margin-left: 20px;
 `
 
-const MinterLogo = styled.img`
+const Logo = styled.img`
     width: 25px;
     height: 25px;
 `
 
-const MinterName = styled.a`
+const Name = styled.a`
     font-size: 27px;
     font-weight: 500;
     color: white;
     margin-left: 10px;
     @media (max-width: 600px) {
-        font-size: 16px;
+        font-size: 17px;
     }
 `
 
@@ -47,7 +47,7 @@ const GreyBlock = styled.div`
     }
 `
 
-const MinterInfo = styled.a`
+const Info = styled.a`
     font-size: 22px;
     font-weight: 500;
     color: white;
@@ -71,14 +71,14 @@ export const USQInfo = () => {
     return (
         <Container>
             <ContainerHeader>
-                    <MinterLogo src={QubeLogo}></MinterLogo>
-                    <MinterName>Minter</MinterName>
+                    <Logo src={QubeLogo}></Logo>
+                    <Name>Minter</Name>
                 </ContainerHeader>
                 <InfoBlock>
-                    <MinterInfo>
+                    <Info>
                         Capital-efficient decentralized 
                         stablecoins
-                    </MinterInfo>
+                    </Info>
                 </InfoBlock>
                 <GreyBlock>
                 <GreyText>

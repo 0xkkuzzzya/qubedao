@@ -65,7 +65,6 @@ const HeaderLogo = styled.img`
 const HeaderText2 = styled.h1`
     font-size: 45px;
     font-weight: 500;
-    margin: 0 20px;
     @media (max-width: 850px) {
         font-size: 35px;
     }

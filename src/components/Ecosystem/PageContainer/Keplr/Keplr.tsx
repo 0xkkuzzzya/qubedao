@@ -41,7 +41,7 @@ const Name = styled.a`
     color: white;
     margin-left: 10px;
     @media (max-width: 500px) {
-        font-size: 16px;
+        font-size: 17px;
     }
 `
 
@@ -65,7 +65,7 @@ const GreyBlock = styled.div`
     }
 `
 
-const MinterInfo = styled.a`
+const Info = styled.a`
     font-size: 22px;
     font-weight: 500;
     color: white;
@@ -98,9 +98,9 @@ export const KeplrBlock = () => {
                     <Name>Keplr</Name>
                 </ContainerHeader>
                 <InfoBlock>
-                    <MinterInfo>
+                    <Info>
                         Your interchain Gateway 
-                    </MinterInfo>
+                    </Info>
                 </InfoBlock>
                 <GreyBlock>
                     <GreyText>
