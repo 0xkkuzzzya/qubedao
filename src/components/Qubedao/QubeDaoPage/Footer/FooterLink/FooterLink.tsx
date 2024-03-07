@@ -61,12 +61,18 @@ const LinkText = styled.a`
     font-weight: 500;
     color: #B7BDC6;
     text-decoration: none;
+    @media (max-width: 600px) {
+        font-size: 15px;
+    }
 `
 
 const BlockText = styled.a`
     color: white;
     font-size: 30px;
     font-weight: 500;
+    @media (max-width: 600px) {
+        font-size: 25px;
+    }
 `
 
 const Block2 = styled.div`
